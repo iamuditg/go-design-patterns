@@ -1,4 +1,4 @@
-package main
+package creationalPatterns
 
 import "fmt"
 
@@ -94,9 +94,9 @@ func (b *PepperoniPizzaBuilder) GetPizza() *Pizza {
 
 // Director
 type PizzaDirector struct {
-	builder PizzaBuilder
+	Builder PizzaBuilder
 }
 
 func (d *PizzaDirector) Construct() *Pizza {
-	return d.builder.SetDough().SetSauce().SetToppings().GetPizza()
+	return d.Builder.SetDough().SetSauce().SetToppings().GetPizza()
 }
