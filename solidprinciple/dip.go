@@ -28,7 +28,7 @@ type Relationships struct {
 	relations []Info
 }
 
-func (r *Relationships) FindAllChildrenOf(name string) *Person {
+func (r *Relationships) FindAllChildrenOf(name string) []*Person {
 	result := make([]*Person, 0)
 
 	for i, v := range r.relations {
@@ -45,7 +45,7 @@ func (r *Relationships) AddParentAndChild(parent, child *Person) {
 }
 
 type RelationShipBrowser interface {
-	FindAllChildrenOf(name string) *Person
+	FindAllChildrenOf(name string) []*Person
 }
 
 type Research struct {
