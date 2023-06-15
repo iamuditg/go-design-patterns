@@ -12,7 +12,6 @@ This repository is organized into different folders based on the types of design
 
 - `behavioralpatterns`: Contains examples and implementations of behavioral design patterns, such as Observer, Strategy, and Command patterns. These patterns focus on communication and interaction between objects.
 - `creationalPatterns`: Includes examples and implementations of creational design patterns, such as Singleton, Factory Method, and Builder patterns. These patterns deal with object creation mechanisms.
-- `factory pattern`: This folder provides a specific implementation of the Factory Pattern, which is a creational design pattern that provides an interface for creating objects without specifying their concrete classes.
 - `solidprinciple`: Contains examples and explanations of the SOLID principles, which are a set of five design principles (Single Responsibility, Open/Closed, Liskov Substitution, Interface Segregation, and Dependency Inversion) that guide software design and architecture.
 - `structuralPatterns`: Includes examples and implementations of structural design patterns, such as Adapter, Decorator, and Facade patterns. These patterns focus on object composition and structure.
 
