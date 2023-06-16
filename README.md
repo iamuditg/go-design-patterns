@@ -1,6 +1,9 @@
+<img src="golang.jpg"/>
+
 # Go Design Patterns
 
 Welcome to the Go Design Patterns repository! This repository is a collection of design patterns implemented in Go, providing you with practical examples and insights into how to apply various design patterns to your Go projects.
+
 
 ## About Design Patterns
 
